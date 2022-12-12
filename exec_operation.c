@@ -13,6 +13,7 @@ void call_oper(stack_t **stack, char *oper, unsigned int line)
     instruction_t all_opers[] = {
         {"push", instruct_push},
         {"pall", instruct_pall},
+        {"pint", instruct_pint},
         {NULL, NULL}};
 
     for (c = 0; all_opers[c].opcode != NULL; c++)

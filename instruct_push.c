@@ -1,5 +1,4 @@
 #include "monty.h"
-
 /**
  * instruct_push - pushes a data/number to stack
  * @stack: pointer to the top node of stack
