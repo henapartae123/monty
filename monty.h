@@ -66,6 +66,7 @@ void instruct_push(stack_t **stack, unsigned int line);
 void instruct_pall(stack_t **stack, unsigned int line);
 void instruct_pint(stack_t **stack, unsigned int line);
 void instruct_pop(stack_t **stack, unsigned int line);
+void instruct_swap(stack_t **stack, unsigned int line __attribute__((unused)));
 
 int check_isdigit(char *str);
 
