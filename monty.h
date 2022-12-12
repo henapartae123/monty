@@ -71,6 +71,7 @@ void instruct_add(stack_t **stack, unsigned int line);
 void instruct_nop(stack_t **stack __attribute__((unused)), unsigned int line);
 void instruct_sub(stack_t **stack, unsigned int line);
 void instruct_div(stack_t **stack, unsigned int line);
+void instruct_mul(stack_t **stack, unsigned int line);
 
 int check_isdigit(char *str);
 

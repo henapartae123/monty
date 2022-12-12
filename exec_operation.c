@@ -20,6 +20,7 @@ void call_oper(stack_t **stack, char *oper, unsigned int line)
         {"nop", instruct_nop},
         {"sub", instruct_sub},
         {"div", instruct_div},
+        {"mul", instruct_mul},
         {NULL, NULL}};
 
     for (c = 0; all_opers[c].opcode != NULL; c++)
