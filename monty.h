@@ -77,6 +77,8 @@ void instruct_pchar(stack_t **stack, unsigned int line);
 void instruct_pstr(stack_t **stack, unsigned int line __attribute__((unused)));
 void instruct_rotl(stack_t **stack, unsigned int line __attribute__((unused)));
 void instruct_rotr(stack_t **stack, unsigned int line __attribute__((unused)));
+void set_queue(stack_t **stack, unsigned int line);
+void set_stack(stack_t **stack, unsigned int line);
 
 int check_isdigit(char *str);
 
