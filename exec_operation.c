@@ -25,6 +25,7 @@ void call_oper(stack_t **stack, char *oper, unsigned int line)
         {"pchar", instruct_pchar},
         {"pstr", instruct_pstr},
         {"rotl", instruct_rotl},
+        {"rotr", instruct_rotr},
         {NULL, NULL}};
 
     for (c = 0; all_opers[c].opcode != NULL; c++)
