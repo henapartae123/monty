@@ -23,6 +23,7 @@ void call_oper(stack_t **stack, char *oper, unsigned int line)
         {"mul", instruct_mul},
         {"mod", instruct_mod},
         {"pchar", instruct_pchar},
+        {"pstr", instruct_pstr},
         {NULL, NULL}};
 
     for (c = 0; all_opers[c].opcode != NULL; c++)
