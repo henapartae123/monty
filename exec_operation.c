@@ -1,10 +1,12 @@
 #include "monty.h"
+
 /**
  * call_oper - executes called stack instructios
  * @stack: pointer to top node of a stack
  * @oper: string copy of stack instruction
  * @line: the current file line number calling instruction
  */
+
 void call_oper(stack_t **stack, char *oper, unsigned int line)
 {
     int c;
@@ -20,6 +22,7 @@ void call_oper(stack_t **stack, char *oper, unsigned int line)
         {"div", instruct_div},
         {"mul", instruct_mul},
         {"mod", instruct_mod},
+        {"pchar", instruct_pchar},
         {NULL, NULL}};
 
     for (c = 0; all_opers[c].opcode != NULL; c++)
