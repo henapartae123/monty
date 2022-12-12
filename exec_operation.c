@@ -14,6 +14,7 @@ void call_oper(stack_t **stack, char *oper, unsigned int line)
         {"push", instruct_push},
         {"pall", instruct_pall},
         {"pint", instruct_pint},
+        {"pop", instruct_pop},
         {NULL, NULL}};
 
     for (c = 0; all_opers[c].opcode != NULL; c++)
